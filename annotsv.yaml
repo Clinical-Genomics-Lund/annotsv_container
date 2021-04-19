@@ -1,0 +1,15 @@
+name: annotsv
+channels:
+    - bioconda
+    - conda-forge
+    - defaults
+
+dependencies:
+    - bioconda::vcflib=1.0.0_rc2
+    - bioconda::bcftools=1.9
+    - bioconda::tabix=0.2.6
+    - bioconda::htslib=1.9
+    - bioconda::bedtools=2.27.1
+
+
+    
